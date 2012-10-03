@@ -25,7 +25,7 @@ public class JValid {
                 "and data file as second, e.g \"java -jar jvalid.jar mySchema.json myData.json\"\n" +
                 "If you not specify parameters it fill try to find \"schema.json\" and \"data.json\" in current folder.";
 
-        String message2 = "Default files (\"schema.json\" and/or \"data.json\") does not exist.";
+        String message2 = "Specified or default files does not exist.";
 
         String schemaFilePath = "src/com/goodness/jvalid/tests/schemas/schema.json";
         String dataFilePath = "src/com/goodness/jvalid/tests/schemas/data.json";
@@ -33,7 +33,7 @@ public class JValid {
         File schemaFile = new File(schemaFilePath);
         File dataFile = new File(dataFilePath);
 
-        String namespace = schemaFile.getAbsoluteFile().getParentFile().getAbsolutePath();
+        String namespace = new File("").getAbsolutePath();
 
         if (args.length != 2) {
             System.out.println(message1);
