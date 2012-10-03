@@ -1,0 +1,64 @@
+{
+    "current_page":1,
+    "per_page":10,
+    "total_entries":3,
+    "items":[
+        {
+            "user":{
+                "id":-1,
+                "owner_id":739,
+                "full_name":"qbsdk",
+                "email":"oleg@quickblox.com",
+                "login":"qbsdk",
+                "phone":null,
+                "website":null,
+                "created_at":"2012-08-12T11:10:24Z",
+                "updated_at":"2012-10-03T11:16:32Z",
+                "last_request_at":"2012-10-03T11:16:32Z",
+                "external_user_id":null,
+                "facebook_id":null,
+                "twitter_id":null,
+                "blob_id":null,
+                "user_tags":"car, cat"
+            }
+        },
+        {
+            "user":{
+                "id":14842,
+                "owner_id":739,
+                "full_name":"Afanasy Gribanov",
+                "email":"yurlov@gmail.com",
+                "login":"yurlov",
+                "phone":null,
+                "website":null,
+                "created_at":"2012-10-03T11:16:53Z",
+                "updated_at":"2012-10-03T11:16:53Z",
+                "last_request_at":null,
+                "external_user_id":null,
+                "facebook_id":null,
+                "twitter_id":null,
+                "blob_id":null,
+                "user_tags":null
+            }
+        },
+        {
+            "user":{
+                "id":14843,
+                "owner_id":739,
+                "full_name":"Mirogod Buzinsky",
+                "email":"zheglov@gmail.com",
+                "login":"zheglov",
+                "phone":null,
+                "website":null,
+                "created_at":"2012-10-03T11:16:54Z",
+                "updated_at":"2012-10-03T11:16:54Z",
+                "last_request_at":null,
+                "external_user_id":null,
+                "facebook_id":null,
+                "twitter_id":null,
+                "blob_id":null,
+                "user_tags":null
+            }
+        }
+    ]
+}

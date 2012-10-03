@@ -1,0 +1,31 @@
+{
+    "$schema":"http://json-schema.org/draft-03/schema",
+    "type":"object",
+    "properties":{
+        "current_page":{
+            "type":"integer",
+            "required":true,
+            "minimum":1
+        },
+        "per_page":{
+            "type":"integer",
+            "required":true,
+            "minimum":1,
+            "maximum":100
+        },
+        "total_entries":{
+            "type":"integer",
+            "required":true,
+            "minimum":1
+        },
+        "items":{
+            "type":"array",
+            "items":{
+                "type":"object",
+                "required":true,
+                "$ref":"innerSchema.json",
+                "minItems":1
+            }
+        }
+    }
+}
