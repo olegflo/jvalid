@@ -1,0 +1,5 @@
+<project>
+
+    <copy file="jvalid.jar" tofile="jvalid1.jar"/>
+
+</project>

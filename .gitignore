@@ -10,5 +10,6 @@
 # *.jar
 *.war
 *.ear
+build.xml
 
 .DS_Store
