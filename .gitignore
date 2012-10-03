@@ -3,9 +3,12 @@
 *.ipr
 *.iws
 .idea/
+/out
 
 # java
 *.class
 # *.jar
 *.war
 *.ear
+
+.DS_Store
